@@ -5,7 +5,7 @@ namespace App\Charts;
 use Fidum\ChartTile\Charts\Chart;
 use Fidum\ChartTile\Contracts\ChartFactory;
 
-class ExampleDoughnutChart implements ChartFactory
+class ExamplePieChart implements ChartFactory
 {
     public static function make(array $settings): ChartFactory
     {
@@ -35,7 +35,7 @@ class ExampleDoughnutChart implements ChartFactory
                     'yAxes' => ['display' => false],
                 ],
             ])
-            ->dataset('Drinks', 'doughnut', $data)
+            ->dataset('Drinks', 'pie', $data)
             ->backgroundColor(['#FF9CEE', '#B28DFF', '#6EB5FF', '#BFFCC6']);
 
         return $chart;
