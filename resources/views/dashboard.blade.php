@@ -7,7 +7,7 @@
   <title>CCSJ Dashboard Test</title>
 </head>
 <body>
-  <h1>Laravel Dashboard Test</h1>
+  <h1 class="">Laravel Dashboard Test</h1>
 
   {{-- demo charts --}}
   {{-- <x-dashboard>
