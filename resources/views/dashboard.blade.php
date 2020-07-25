@@ -35,11 +35,19 @@
           chartFactory="{{App\Charts\ExampleLineChart::class}}"
           position="c1:d2" />
 
+      <livewire:chart-tile
+          chartFactory="{{App\Charts\ExampleDoughnutChart::class}}"
+          position="a3:b4" />
+
+      <livewire:chart-tile
+          chartFactory="{{App\Charts\ExamplePieChart::class}}"
+          position="c3:d4" />
+
       {{-- <livewire:chart-tile chartFactory="{{App\Charts\ExampleDoughnutChart::class}}" position="a4:a6" /> --}}
       {{-- <livewire:chart-tile chartFactory="{{App\Charts\ExampleDoughnutChart::class}}" position="c4:c6" /> --}}
       <livewire:chart-tile
           chartFactory="{{App\Charts\ExampleLineChart::class}}"
-          position="a3:d6" />
+          position="a5:d6" />
       {{-- <livewire:chart-tile chartFactory="{{App\Charts\ExamplePieChart::class}}" position="a10:a12" /> --}}
       {{-- <livewire:chart-tile chartFactory="{{App\Charts\DailyUsersChart::class}}" position="a1:a3" /> --}}
   </x-dashboard>
