@@ -45,6 +45,10 @@
 
       {{-- <livewire:chart-tile chartFactory="{{App\Charts\ExampleDoughnutChart::class}}" position="a4:a6" /> --}}
       {{-- <livewire:chart-tile chartFactory="{{App\Charts\ExampleDoughnutChart::class}}" position="c4:c6" /> --}}
+      {{-- <livewire:chart-tile
+          chartFactory="{{App\Charts\DailyUsersChart::class}}"
+          position="a5:d6" /> --}}
+
       <livewire:chart-tile
           chartFactory="{{App\Charts\ExampleLineChart::class}}"
           position="a5:d6" />
