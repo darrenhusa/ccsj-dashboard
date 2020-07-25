@@ -27,10 +27,19 @@
       {{-- replace this by any tiles --}}
       {{-- <livewire:accuweather-current-conditions-tile position="e1:e4" /> --}}
       {{-- <livewire:accuweather-five-day-forecast-tile position="a14:d16" /> --}}
-      <livewire:chart-tile chartFactory="{{App\Charts\ExampleBarChart::class}}" position="a1:a3" />
+      <livewire:chart-tile
+          chartFactory="{{App\Charts\ExampleBarChart::class}}"
+          position="a1:b2" />
+
+      <livewire:chart-tile
+          chartFactory="{{App\Charts\ExampleLineChart::class}}"
+          position="c1:d2" />
+
       {{-- <livewire:chart-tile chartFactory="{{App\Charts\ExampleDoughnutChart::class}}" position="a4:a6" /> --}}
       {{-- <livewire:chart-tile chartFactory="{{App\Charts\ExampleDoughnutChart::class}}" position="c4:c6" /> --}}
-      <livewire:chart-tile chartFactory="{{App\Charts\ExampleLineChart::class}}" position="a4:a6" />
+      <livewire:chart-tile
+          chartFactory="{{App\Charts\ExampleLineChart::class}}"
+          position="a3:d6" />
       {{-- <livewire:chart-tile chartFactory="{{App\Charts\ExamplePieChart::class}}" position="a10:a12" /> --}}
       {{-- <livewire:chart-tile chartFactory="{{App\Charts\DailyUsersChart::class}}" position="a1:a3" /> --}}
   </x-dashboard>
